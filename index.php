@@ -39,10 +39,13 @@
   <hr>
 
   <section class="censuredText">
+
+    <h1>
+      Testo censurato:
+    </h1>
     <?php
-    $paragraph = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellat ex ut itaque numquam perferendis, alias cupiditate veniam amet ea, consectetur iste repellendus nemo vitae animi quia voluptates, quibusdam voluptatibus.";
     $badWord = $_GET["badword"];
-    $censured = str_replace($badWord, "***", $paragraph);
+    $censured = str_replace($badWord, "***", $str);
     ?>
 
     <h1>
@@ -50,8 +53,9 @@
       echo $censured;
       ?>
     </h1>
+
     <h2>
-      string length:
+      Lunghezza:
       <?php
       echo strlen($censured);
       ?>
