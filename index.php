@@ -37,6 +37,9 @@
   </section>
 
   <section class="censuredText">
+    <?php
+    $censured = "***"
+      ?>
 
   </section>
 
