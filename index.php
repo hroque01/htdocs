@@ -36,9 +36,11 @@
     </h3>
   </section>
 
+
   <section class="censuredText">
     <?php
     $censured = "***"
+
       ?>
 
   </section>
